@@ -237,7 +237,7 @@ canvas {
 
 .container {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	color: white;
 	width: 100%;
 	justify-content: center;
@@ -249,6 +249,7 @@ canvas {
 
 .container-events-podium {
 	scale: 70%;
+	width: 100%;
 }
 
 .podium__item {
@@ -283,6 +284,7 @@ canvas {
 
 .podium .first {
 	height: 300px;
+	translate: 0 -60px;
 
 	@media screen and (max-width: 400px) {
 		scale: 90%;
