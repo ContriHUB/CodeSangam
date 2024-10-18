@@ -44,8 +44,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#2</p> */}
-                                        <p className="podium__city">{secondTeam.members[1].name}</p>
-                                        <p className="podium__city">{secondTeam.members[1].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{secondTeam.members[1].name}</p>
+                                            <p className="podium__city">{secondTeam.members[1].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -67,8 +69,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#1</p> */}
-                                        <p className="podium__city">{secondTeam.members[0].name}</p>
-                                        <p className="podium__city">{secondTeam.members[0].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{secondTeam.members[0].name}</p>
+                                            <p className="podium__city">{secondTeam.members[0].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -90,8 +94,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#3</p> */}
-                                        <p className="podium__city">{secondTeam.members[2].name}</p>
-                                        <p className="podium__city">{secondTeam.members[2].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{secondTeam.members[2].name}</p>
+                                            <p className="podium__city">{secondTeam.members[2].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -119,8 +125,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#2</p> */}
-                                        <p className="podium__city">{firstTeam.members[1].name}</p>
-                                        <p className="podium__city">{firstTeam.members[1].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{firstTeam.members[1].name}</p>
+                                            <p className="podium__city">{firstTeam.members[1].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -142,8 +150,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#1</p> */}
-                                        <p className="podium__city">{firstTeam.members[0].name}</p>
-                                        <p className="podium__city">{firstTeam.members[0].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{firstTeam.members[0].name}</p>
+                                            <p className="podium__city">{firstTeam.members[0].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -165,8 +175,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             </div>
                                         </div>
                                         {/* <p className="podium__city">#3</p> */}
-                                        <p className="podium__city">{firstTeam.members[2].name}</p>
-                                        <p className="podium__city">{firstTeam.members[2].reg_no}</p>
+                                        <div className="city__container">
+                                            <p className="podium__city">{firstTeam.members[2].name}</p>
+                                            <p className="podium__city">{firstTeam.members[2].reg_no}</p>
+                                        </div>
                                     </div>
                                 )
                                 :
@@ -197,8 +209,10 @@ export default function EventsPodium({ teams }: Prop) {
                                                         </div>
                                                     </div>
                                                     {/* <p className="podium__city">#2</p> */}
-                                                    <p className="podium__city">{thirdTeam.members[1].name}</p>
-                                                    <p className="podium__city">{thirdTeam.members[1].reg_no}</p>
+                                                    <div className="city__container">
+                                                        <p className="podium__city">{thirdTeam.members[1].name}</p>
+                                                        <p className="podium__city">{thirdTeam.members[1].reg_no}</p>
+                                                    </div>
                                                 </div>
                                             )
                                             :
@@ -220,8 +234,10 @@ export default function EventsPodium({ teams }: Prop) {
                                                         </div>
                                                     </div>
                                                     {/* <p className="podium__city">#1</p> */}
-                                                    <p className="podium__city">{thirdTeam.members[0].name}</p>
-                                                    <p className="podium__city">{thirdTeam.members[0].reg_no}</p>
+                                                    <div className="city__container">
+                                                        <p className="podium__city">{thirdTeam.members[0].name}</p>
+                                                        <p className="podium__city">{thirdTeam.members[0].reg_no}</p>
+                                                    </div>
                                                 </div>
                                             )
                                             :
@@ -243,8 +259,10 @@ export default function EventsPodium({ teams }: Prop) {
                                                         </div>
                                                     </div>
                                                     {/* <p className="podium__city">#3</p> */}
-                                                    <p className="podium__city">{thirdTeam.members[2].name}</p>
-                                                    <p className="podium__city">{thirdTeam.members[2].reg_no}</p>
+                                                    <div className="city__container">
+                                                        <p className="podium__city">{thirdTeam.members[2].name}</p>
+                                                        <p className="podium__city">{thirdTeam.members[2].reg_no}</p>
+                                                    </div>
                                                 </div>
                                             )
                                             :
