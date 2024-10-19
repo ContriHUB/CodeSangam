@@ -259,6 +259,11 @@ canvas {
     grid-template-rows: 85% 25%;
 }
 
+.team__details{
+	margin-top: 15px;
+	text-align: center;
+}
+
 .podium__item:hover {
 	@media screen and (min-width: 768px) {
 		scale: 120%;
@@ -286,7 +291,7 @@ canvas {
 
 .podium .first {
 	height: 300px;
-
+	margin-top: -60px;
 	@media screen and (max-width: 400px) {
 		scale: 90%;
 	}

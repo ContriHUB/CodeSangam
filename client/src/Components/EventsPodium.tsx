@@ -104,8 +104,10 @@ export default function EventsPodium({ teams }: Prop) {
                                 (<></>)
                         }
                     </div>
-                    <p style={{ color: "white" }}>#2</p>
-                    <p style={{ color: "white" }}>{(secondTeam) ? secondTeam.name : ""}</p>
+                    <div className="team__details">
+                        <p style={{ color: "white" }}>#2</p>
+                        <p style={{ color: "white" }}>{(secondTeam) ? secondTeam.name : ""}</p>
+                    </div>
                 </div>
                 <div className='events-podium-container' style={{ display: "flex", flexDirection: "column" }}>
                     <div className="container-events-podium container podium">
@@ -185,8 +187,10 @@ export default function EventsPodium({ teams }: Prop) {
                                 (<></>)
                         }
                     </div>
-                    <p style={{ color: "white" }}>#1</p>
-                    <p style={{ color: "white" }}>{(firstTeam) ? firstTeam.name : ""}</p>
+                    <div className="team__details">
+                        <p style={{ color: "white" }}>#1</p>
+                        <p style={{ color: "white" }}>{(firstTeam) ? firstTeam.name : ""}</p>
+                    </div>
                 </div>
                 {
                     (thirdTeam) ?
@@ -269,8 +273,10 @@ export default function EventsPodium({ teams }: Prop) {
                                             (<></>)
                                     }
                                 </div>
-                                <p style={{ color: "white" }}>#3</p>
-                                <p style={{ color: "white" }}>{thirdTeam.name}</p>
+                                <div className="team__details">
+                                    <p style={{ color: "white" }}>#3</p>
+                                    <p style={{ color: "white" }}>{thirdTeam.name}</p>
+                                </div>
                             </div>
                     ):
                     (<></>)
